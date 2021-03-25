@@ -9,10 +9,10 @@ maven静态资源仓库，用于对外提供SDK依赖
 ```
 allprojects {
     repositories {
+        // gitlab镜像仓库
+        maven { url "https://gitlab.com/che300-android/maven/-/raw/main" }
         // github源仓库
         maven { url "https://raw.githubusercontent.com/car300/maven/main" }
-        // gitee镜像仓库
-        maven { url "https://gitee.com/che300-android/maven/raw/main" }
     }
 }
 ```
