@@ -1,0 +1,242 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.che300.sdk",
+    "module": "ht-eval",
+    "version": "1.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "pyx4hbua4fclhnbz2rbkow76vu"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ht-eval-1.0.1-SNAPSHOT.aar",
+          "url": "ht-eval-1.0.1-SNAPSHOT.aar",
+          "size": 1372038,
+          "sha512": "e0494e7a051a687b4624df7216be19eddb07a1dab3448e2ceac21e21f30d688515781cc95fc9f3824a9beeaf62d6b2a2ad4578bb70733068e796936966a8796f",
+          "sha256": "955e474f817f67225c6d84ff3c7b13b48ed2a3b22967e878cdd8a27e5a87a4b4",
+          "sha1": "d3e445b991ef768f4a09caca7a14a1c33b6410ac",
+          "md5": "af9471a4cd5c5563a0f65ea3aa4b8257"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.github.CymChad",
+          "module": "BaseRecyclerViewAdapterHelper",
+          "version": {
+            "requires": "2.6.7"
+          }
+        },
+        {
+          "group": "com.contrarywind",
+          "module": "Android-PickerView",
+          "version": {
+            "requires": "3.2.7"
+          }
+        },
+        {
+          "group": "androidx.viewpager2",
+          "module": "viewpager2",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.github.chrisbanes",
+          "module": "PhotoView",
+          "version": {
+            "requires": "2.1.3"
+          }
+        },
+        {
+          "group": "com.qiniu",
+          "module": "qiniu-android-sdk",
+          "version": {
+            "requires": "7.3.15"
+          }
+        },
+        {
+          "group": "com.tencent.qcloud",
+          "module": "cosxml-lite",
+          "version": {
+            "requires": "5.4.31"
+          },
+          "excludes": [
+            {
+              "group": "com.tencent.qcloud",
+              "module": "mtaUtils"
+            }
+          ]
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.15"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "com.trello.rxlifecycle2",
+          "module": "rxlifecycle",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.trello.rxlifecycle2",
+          "module": "rxlifecycle-android",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.trello.rxlifecycle2",
+          "module": "rxlifecycle-components",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.trello.rxlifecycle2",
+          "module": "rxlifecycle-kotlin",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava2",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "3.12.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.danikula",
+          "module": "videocache",
+          "version": {
+            "requires": "2.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ht-eval-1.0.1-SNAPSHOT.aar",
+          "url": "ht-eval-1.0.1-SNAPSHOT.aar",
+          "size": 1372038,
+          "sha512": "e0494e7a051a687b4624df7216be19eddb07a1dab3448e2ceac21e21f30d688515781cc95fc9f3824a9beeaf62d6b2a2ad4578bb70733068e796936966a8796f",
+          "sha256": "955e474f817f67225c6d84ff3c7b13b48ed2a3b22967e878cdd8a27e5a87a4b4",
+          "sha1": "d3e445b991ef768f4a09caca7a14a1c33b6410ac",
+          "md5": "af9471a4cd5c5563a0f65ea3aa4b8257"
+        }
+      ]
+    }
+  ]
+}
