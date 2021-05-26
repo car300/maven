@@ -1,0 +1,267 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.che300.sdk",
+    "module": "ht-eval",
+    "version": "1.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "c7vh3t7zmvezjke6sxj2gm2gee"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ht-eval-1.0.1-SNAPSHOT.aar",
+          "url": "ht-eval-1.0.1-SNAPSHOT.aar",
+          "size": 1402012,
+          "sha512": "9721b638be8ddd5975b52584bd06e53403b0a045e28ef73e64854181b63a770b6d563ef1dfa227b937c435b92c60b53177c7cbd278b99fee2c258c01e940065c",
+          "sha256": "aedc84545a4ef0e4d2dbd584093f3aa08e213372a7c04676b24e6ea62ba35b36",
+          "sha1": "de8eddd905bef3de468cca587e5b0e0e10353a79",
+          "md5": "6b2200a1733c3746bb17707669803c76"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.viewpager2",
+          "module": "viewpager2",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.github.CymChad",
+          "module": "BaseRecyclerViewAdapterHelper",
+          "version": {
+            "requires": "2.6.7"
+          }
+        },
+        {
+          "group": "com.contrarywind",
+          "module": "Android-PickerView",
+          "version": {
+            "requires": "3.2.7"
+          }
+        },
+        {
+          "group": "com.github.huburt-Hu",
+          "module": "NewbieGuide",
+          "version": {
+            "requires": "v1.0.3"
+          }
+        },
+        {
+          "group": "top.zibin",
+          "module": "Luban",
+          "version": {
+            "requires": "1.1.8"
+          }
+        },
+        {
+          "group": "com.github.chrisbanes",
+          "module": "PhotoView",
+          "version": {
+            "requires": "2.1.3"
+          }
+        },
+        {
+          "group": "com.qiniu",
+          "module": "qiniu-android-sdk",
+          "version": {
+            "requires": "7.3.15"
+          }
+        },
+        {
+          "group": "com.tencent.qcloud",
+          "module": "cosxml",
+          "version": {
+            "requires": "5.6.0"
+          },
+          "excludes": [
+            {
+              "group": "com.tencent.qcloud",
+              "module": "mtaUtils"
+            },
+            {
+              "group": "*",
+              "module": "beacon-android-release"
+            }
+          ]
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.15"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "com.trello.rxlifecycle2",
+          "module": "rxlifecycle",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.trello.rxlifecycle2",
+          "module": "rxlifecycle-android",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.trello.rxlifecycle2",
+          "module": "rxlifecycle-components",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.trello.rxlifecycle2",
+          "module": "rxlifecycle-kotlin",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava2",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "3.12.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.danikula",
+          "module": "videocache",
+          "version": {
+            "requires": "2.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ht-eval-1.0.1-SNAPSHOT.aar",
+          "url": "ht-eval-1.0.1-SNAPSHOT.aar",
+          "size": 1402012,
+          "sha512": "9721b638be8ddd5975b52584bd06e53403b0a045e28ef73e64854181b63a770b6d563ef1dfa227b937c435b92c60b53177c7cbd278b99fee2c258c01e940065c",
+          "sha256": "aedc84545a4ef0e4d2dbd584093f3aa08e213372a7c04676b24e6ea62ba35b36",
+          "sha1": "de8eddd905bef3de468cca587e5b0e0e10353a79",
+          "md5": "6b2200a1733c3746bb17707669803c76"
+        }
+      ]
+    }
+  ]
+}
