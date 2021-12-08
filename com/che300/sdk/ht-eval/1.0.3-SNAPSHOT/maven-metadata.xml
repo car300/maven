@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.che300.sdk</groupId>
+  <artifactId>ht-eval</artifactId>
+  <version>1.0.3-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20211208.053531</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20211208053531</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>1.0.3-20211208.053531-1</value>
+        <updated>20211208053531</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.3-20211208.053531-1</value>
+        <updated>20211208053531</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.0.3-20211208.053531-1</value>
+        <updated>20211208053531</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
