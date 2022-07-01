@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.1.1",
-      "buildId": "eorlnz7ayncrlgrzijo4fab23y"
+      "buildId": "boqhzzwf6zaotdvgk5rfz4zn3u"
     }
   },
   "variants": [
@@ -26,12 +26,12 @@
       "files": [
         {
           "name": "jinrong_sdk-1.0.0-SNAPSHOT.aar",
-          "url": "jinrong_sdk-1.0.0-20220630.102516-1.aar",
-          "size": 37252,
-          "sha512": "1649374f21ac15de9903bac8b4055451b0a066bf0e8c38c835cbba0e733685adf6358c2e323ed32ddba2a545eb233b609df1a0efa795aa3d3203f040192e0760",
-          "sha256": "4867d7dbf771401896ad230ec11f962b7f2ea56b26de1c1eecb9cd154ba70994",
-          "sha1": "3fda4070279d35bc29c8530da13f437e6281eff6",
-          "md5": "0a99d875da49ca781b69ce00b710cd37"
+          "url": "jinrong_sdk-1.0.0-20220701.025209-1.aar",
+          "size": 58619,
+          "sha512": "3ce1e0b052f66cbe3f9b4695d7d017742fcd6aab788162190d4cda48ebc37647ac8dfa8929c68c35dfc12aef6abf6c9f0b4216ed895a23e6cc6696ed47eee686",
+          "sha256": "eb05606505af94901a17210b911312a75e662ffd1c605ef697f240c84d52887e",
+          "sha1": "f463300a269e4998041e05060392e9bd1ac78355",
+          "md5": "baf63638a48d86348328b48884b5a2de"
         }
       ]
     },
@@ -174,7 +174,7 @@
           "group": "com.qiniu",
           "module": "qiniu-android-sdk",
           "version": {
-            "requires": "7.3.15"
+            "requires": "8.4.2"
           }
         },
         {
@@ -216,13 +216,6 @@
           "module": "flowlayout-lib",
           "version": {
             "requires": "1.1.2"
-          }
-        },
-        {
-          "group": "com.car300.retrofit",
-          "module": "retrofitLib",
-          "version": {
-            "requires": "1.0.7"
           }
         },
         {
@@ -299,12 +292,12 @@
       "files": [
         {
           "name": "jinrong_sdk-1.0.0-SNAPSHOT.aar",
-          "url": "jinrong_sdk-1.0.0-20220630.102516-1.aar",
-          "size": 37252,
-          "sha512": "1649374f21ac15de9903bac8b4055451b0a066bf0e8c38c835cbba0e733685adf6358c2e323ed32ddba2a545eb233b609df1a0efa795aa3d3203f040192e0760",
-          "sha256": "4867d7dbf771401896ad230ec11f962b7f2ea56b26de1c1eecb9cd154ba70994",
-          "sha1": "3fda4070279d35bc29c8530da13f437e6281eff6",
-          "md5": "0a99d875da49ca781b69ce00b710cd37"
+          "url": "jinrong_sdk-1.0.0-20220701.025209-1.aar",
+          "size": 58619,
+          "sha512": "3ce1e0b052f66cbe3f9b4695d7d017742fcd6aab788162190d4cda48ebc37647ac8dfa8929c68c35dfc12aef6abf6c9f0b4216ed895a23e6cc6696ed47eee686",
+          "sha256": "eb05606505af94901a17210b911312a75e662ffd1c605ef697f240c84d52887e",
+          "sha1": "f463300a269e4998041e05060392e9bd1ac78355",
+          "md5": "baf63638a48d86348328b48884b5a2de"
         }
       ]
     }
