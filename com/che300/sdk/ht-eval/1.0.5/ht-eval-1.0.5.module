@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.5",
-      "buildId": "6fz3nprhxzahvfmgitgglgeayy"
+      "buildId": "ydpphnvtofcxxbalkg5y746bfe"
     }
   },
   "variants": [
@@ -27,11 +27,11 @@
         {
           "name": "ht-eval-1.0.5.aar",
           "url": "ht-eval-1.0.5.aar",
-          "size": 1540992,
-          "sha512": "b92c6a8a33faedd04e28a582e636dbdedcaf4d624129337640844f11a1fad0f0e56d6a43bf73ff96f06fbce6139a69ab28a5c3afc6a03b2e8b1465771bb5fe5b",
-          "sha256": "9239363f078051f9b03bfc576516e1e6bed099ee95e55528c866c75ad9226ada",
-          "sha1": "1a314515fee7890773be0849bb80ff61c01406b6",
-          "md5": "6a46b84c00df3ed445f88ef86b905a26"
+          "size": 1545663,
+          "sha512": "a0b060f4b732b90ef106dba165660afcbb9018e96edf42681e8a6736b511d4b03ed8f488a9303a227c7192c0bf424e9443e72f758916cc9994fde78a4da65009",
+          "sha256": "f4ebefe58b8b6e0ce0578dbac2c5209f663d65abf0a6c404023e0a104fb55de6",
+          "sha1": "b4150f4690978cfdf49b4373c3d00d8d04e6d4fd",
+          "md5": "b7df3dbc6799fb6f1e78505c3de060f4"
         }
       ]
     },
@@ -249,17 +249,38 @@
           "version": {
             "requires": "2.7.1"
           }
+        },
+        {
+          "group": "com.github.udesk.UdeskSDK-Android",
+          "module": "UdeskSDKUI",
+          "version": {
+            "requires": "5.3.3"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-android-extensions",
+          "version": {
+            "requires": "4.2.0"
+          }
+        },
+        {
+          "group": "org.igniterealtime.smack",
+          "module": "smack-tcp",
+          "version": {
+            "requires": "4.2.0"
+          }
         }
       ],
       "files": [
         {
           "name": "ht-eval-1.0.5.aar",
           "url": "ht-eval-1.0.5.aar",
-          "size": 1540992,
-          "sha512": "b92c6a8a33faedd04e28a582e636dbdedcaf4d624129337640844f11a1fad0f0e56d6a43bf73ff96f06fbce6139a69ab28a5c3afc6a03b2e8b1465771bb5fe5b",
-          "sha256": "9239363f078051f9b03bfc576516e1e6bed099ee95e55528c866c75ad9226ada",
-          "sha1": "1a314515fee7890773be0849bb80ff61c01406b6",
-          "md5": "6a46b84c00df3ed445f88ef86b905a26"
+          "size": 1545663,
+          "sha512": "a0b060f4b732b90ef106dba165660afcbb9018e96edf42681e8a6736b511d4b03ed8f488a9303a227c7192c0bf424e9443e72f758916cc9994fde78a4da65009",
+          "sha256": "f4ebefe58b8b6e0ce0578dbac2c5209f663d65abf0a6c404023e0a104fb55de6",
+          "sha1": "b4150f4690978cfdf49b4373c3d00d8d04e6d4fd",
+          "md5": "b7df3dbc6799fb6f1e78505c3de060f4"
         }
       ]
     }
