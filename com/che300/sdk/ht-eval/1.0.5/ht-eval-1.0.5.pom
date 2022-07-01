@@ -190,23 +190,5 @@
       <version>2.7.1</version>
       <scope>runtime</scope>
     </dependency>
-    <dependency>
-      <groupId>com.github.udesk.UdeskSDK-Android</groupId>
-      <artifactId>UdeskSDKUI</artifactId>
-      <version>5.3.3</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.igniterealtime.smack</groupId>
-      <artifactId>smack-android-extensions</artifactId>
-      <version>4.2.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.igniterealtime.smack</groupId>
-      <artifactId>smack-tcp</artifactId>
-      <version>4.2.0</version>
-      <scope>runtime</scope>
-    </dependency>
   </dependencies>
 </project>

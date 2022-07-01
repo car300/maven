@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.5",
-      "buildId": "ydpphnvtofcxxbalkg5y746bfe"
+      "buildId": "wl37aqp6vfg5pk3udl4247bx2y"
     }
   },
   "variants": [
@@ -27,11 +27,11 @@
         {
           "name": "ht-eval-1.0.5.aar",
           "url": "ht-eval-1.0.5.aar",
-          "size": 1545663,
-          "sha512": "a0b060f4b732b90ef106dba165660afcbb9018e96edf42681e8a6736b511d4b03ed8f488a9303a227c7192c0bf424e9443e72f758916cc9994fde78a4da65009",
-          "sha256": "f4ebefe58b8b6e0ce0578dbac2c5209f663d65abf0a6c404023e0a104fb55de6",
-          "sha1": "b4150f4690978cfdf49b4373c3d00d8d04e6d4fd",
-          "md5": "b7df3dbc6799fb6f1e78505c3de060f4"
+          "size": 1540459,
+          "sha512": "c2effee67edae5fa259b12797fd5445b6f85ed423f85a75b4a956020b87582d2b6bcf0871fb711061bc14395c9833cd90ccce2faee958a7513e1bd7406115c5a",
+          "sha256": "8964a845f736a0031ec5be0a3b5bac74341149c11c7a3de996b06eb0129182d2",
+          "sha1": "db3962d75f46b70cea788e6ae8ff7c3076b203bf",
+          "md5": "0433e1574cf98e86f946828ef2eb0e59"
         }
       ]
     },
@@ -249,38 +249,17 @@
           "version": {
             "requires": "2.7.1"
           }
-        },
-        {
-          "group": "com.github.udesk.UdeskSDK-Android",
-          "module": "UdeskSDKUI",
-          "version": {
-            "requires": "5.3.3"
-          }
-        },
-        {
-          "group": "org.igniterealtime.smack",
-          "module": "smack-android-extensions",
-          "version": {
-            "requires": "4.2.0"
-          }
-        },
-        {
-          "group": "org.igniterealtime.smack",
-          "module": "smack-tcp",
-          "version": {
-            "requires": "4.2.0"
-          }
         }
       ],
       "files": [
         {
           "name": "ht-eval-1.0.5.aar",
           "url": "ht-eval-1.0.5.aar",
-          "size": 1545663,
-          "sha512": "a0b060f4b732b90ef106dba165660afcbb9018e96edf42681e8a6736b511d4b03ed8f488a9303a227c7192c0bf424e9443e72f758916cc9994fde78a4da65009",
-          "sha256": "f4ebefe58b8b6e0ce0578dbac2c5209f663d65abf0a6c404023e0a104fb55de6",
-          "sha1": "b4150f4690978cfdf49b4373c3d00d8d04e6d4fd",
-          "md5": "b7df3dbc6799fb6f1e78505c3de060f4"
+          "size": 1540459,
+          "sha512": "c2effee67edae5fa259b12797fd5445b6f85ed423f85a75b4a956020b87582d2b6bcf0871fb711061bc14395c9833cd90ccce2faee958a7513e1bd7406115c5a",
+          "sha256": "8964a845f736a0031ec5be0a3b5bac74341149c11c7a3de996b06eb0129182d2",
+          "sha1": "db3962d75f46b70cea788e6ae8ff7c3076b203bf",
+          "md5": "0433e1574cf98e86f946828ef2eb0e59"
         }
       ]
     }
