@@ -1,0 +1,305 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.che300.sdk",
+    "module": "jinrong-sdk",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "omix5lwhj5etrljk7nraamgrye"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jinrong-sdk-1.0.0-SNAPSHOT.aar",
+          "url": "jinrong-sdk-1.0.0-20220701.062159-1.aar",
+          "size": 37596,
+          "sha512": "8389dfc8acd117620aa4692d3c286dfdf9313070c2f379e91ad772baf12747bafa4d5f48920d5a3dbbcf1d0d522f398c5397f6d4bf440d9dce0aa8223a7d6bb8",
+          "sha256": "efb386cfaca91621ac9bd8edd8011d354a25d73f91dc8537a27ff3241301ec41",
+          "sha1": "04ed166c045b87aebf86d798958baf6f3b90955a",
+          "md5": "9f3e06d94b662490480f0b579f0760f1"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.3.41"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "com.tencent.bugly",
+          "module": "crashreport",
+          "version": {
+            "requires": "3.4.4"
+          }
+        },
+        {
+          "group": "com.contrarywind",
+          "module": "Android-PickerView",
+          "version": {
+            "requires": "4.1.6"
+          }
+        },
+        {
+          "group": "com.alibaba",
+          "module": "fastjson",
+          "version": {
+            "requires": "1.1.54.android"
+          }
+        },
+        {
+          "group": "com.github.CymChad",
+          "module": "BaseRecyclerViewAdapterHelper",
+          "version": {
+            "requires": "3.0.6"
+          }
+        },
+        {
+          "group": "com.github.MingYueChunQiu",
+          "module": "RecorderManager",
+          "version": {
+            "requires": "0.2.29"
+          }
+        },
+        {
+          "group": "com.github.PhilJay",
+          "module": "MPAndroidChart",
+          "version": {
+            "requires": "v3.1.0"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.github.mcxtzhang",
+          "module": "SwipeDelMenuLayout",
+          "version": {
+            "requires": "V1.3.0"
+          }
+        },
+        {
+          "group": "com.github.open-android",
+          "module": "Logger",
+          "version": {
+            "requires": "v1.0.0"
+          }
+        },
+        {
+          "group": "com.google.android",
+          "module": "flexbox",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.king.zxing",
+          "module": "zxing-lite",
+          "version": {
+            "requires": "1.1.2-androidx"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "com.github.chrisbanes",
+          "module": "PhotoView",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "com.qiniu",
+          "module": "qiniu-android-sdk",
+          "version": {
+            "requires": "8.4.2"
+          }
+        },
+        {
+          "group": "com.tencent.qcloud",
+          "module": "cosxml-lite",
+          "version": {
+            "requires": "5.4.31"
+          },
+          "excludes": [
+            {
+              "group": "com.tencent.qcloud",
+              "module": "mtaUtils"
+            }
+          ]
+        },
+        {
+          "group": "com.shuyu",
+          "module": "gsyVideoPlayer-java",
+          "version": {
+            "requires": "7.1.3"
+          }
+        },
+        {
+          "group": "com.shuyu",
+          "module": "GSYVideoPlayer-exo2",
+          "version": {
+            "requires": "7.1.3"
+          }
+        },
+        {
+          "group": "com.shuyu",
+          "module": "gsyVideoPlayer-ex_so",
+          "version": {
+            "requires": "7.1.3"
+          }
+        },
+        {
+          "group": "com.hyman",
+          "module": "flowlayout-lib",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.15"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "com.trello.rxlifecycle2",
+          "module": "rxlifecycle",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.trello.rxlifecycle2",
+          "module": "rxlifecycle-android",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.trello.rxlifecycle2",
+          "module": "rxlifecycle-components",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.trello.rxlifecycle2",
+          "module": "rxlifecycle-kotlin",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava2",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "com.youth.banner",
+          "module": "banner",
+          "version": {
+            "requires": "1.4.9"
+          }
+        },
+        {
+          "group": "org.greenrobot",
+          "module": "eventbus",
+          "version": {
+            "requires": "3.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jinrong-sdk-1.0.0-SNAPSHOT.aar",
+          "url": "jinrong-sdk-1.0.0-20220701.062159-1.aar",
+          "size": 37596,
+          "sha512": "8389dfc8acd117620aa4692d3c286dfdf9313070c2f379e91ad772baf12747bafa4d5f48920d5a3dbbcf1d0d522f398c5397f6d4bf440d9dce0aa8223a7d6bb8",
+          "sha256": "efb386cfaca91621ac9bd8edd8011d354a25d73f91dc8537a27ff3241301ec41",
+          "sha1": "04ed166c045b87aebf86d798958baf6f3b90955a",
+          "md5": "9f3e06d94b662490480f0b579f0760f1"
+        }
+      ]
+    }
+  ]
+}
