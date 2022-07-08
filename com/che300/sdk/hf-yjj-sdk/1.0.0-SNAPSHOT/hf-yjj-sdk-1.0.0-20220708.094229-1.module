@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.1.1",
-      "buildId": "fphfgvkajfbjni7uemsenmvgca"
+      "buildId": "kuewqib6lrgibpxmik43b7if4e"
     }
   },
   "variants": [
@@ -26,12 +26,12 @@
       "files": [
         {
           "name": "hf-yjj-sdk-1.0.0-SNAPSHOT.aar",
-          "url": "hf-yjj-sdk-1.0.0-20220708.092208-1.aar",
-          "size": 3467823,
-          "sha512": "3ea77afed412492643e2aa9a9c7bbb52b7485e48acff0078be3c441304a39d5a34e722238e622830b34d97a2f95b7e83d1ffdbdb3b6d2955de931dd2a26c4b86",
-          "sha256": "3ea28da8d368150309a012c7b79a8229210cc4ca332716b0c686236847fbc8a8",
-          "sha1": "5730c451eefa5b005a83bc7c84f8f1d2922eb2ee",
-          "md5": "544ba142b8f5169b2e558ca194904020"
+          "url": "hf-yjj-sdk-1.0.0-20220708.094229-1.aar",
+          "size": 3635744,
+          "sha512": "251a66a690ac54a6a3d4123aec7aca5ded2155af485fd28d881d51606806be9af5e5ac0aac1e2d66b827d144d0feccd9c6396a44e04d6b7a5c8924e5a725fe5d",
+          "sha256": "876aa7b86c2eb928c526d75c1ad10d657b7a6169fd379fcdb8b86268cd4b7e08",
+          "sha1": "d2a3a2e806028669f6a45e40cc5cc23555091799",
+          "md5": "6ce3192e00a51916bc332e846ca90523"
         }
       ]
     },
@@ -362,12 +362,12 @@
       "files": [
         {
           "name": "hf-yjj-sdk-1.0.0-SNAPSHOT.aar",
-          "url": "hf-yjj-sdk-1.0.0-20220708.092208-1.aar",
-          "size": 3467823,
-          "sha512": "3ea77afed412492643e2aa9a9c7bbb52b7485e48acff0078be3c441304a39d5a34e722238e622830b34d97a2f95b7e83d1ffdbdb3b6d2955de931dd2a26c4b86",
-          "sha256": "3ea28da8d368150309a012c7b79a8229210cc4ca332716b0c686236847fbc8a8",
-          "sha1": "5730c451eefa5b005a83bc7c84f8f1d2922eb2ee",
-          "md5": "544ba142b8f5169b2e558ca194904020"
+          "url": "hf-yjj-sdk-1.0.0-20220708.094229-1.aar",
+          "size": 3635744,
+          "sha512": "251a66a690ac54a6a3d4123aec7aca5ded2155af485fd28d881d51606806be9af5e5ac0aac1e2d66b827d144d0feccd9c6396a44e04d6b7a5c8924e5a725fe5d",
+          "sha256": "876aa7b86c2eb928c526d75c1ad10d657b7a6169fd379fcdb8b86268cd4b7e08",
+          "sha1": "d2a3a2e806028669f6a45e40cc5cc23555091799",
+          "md5": "6ce3192e00a51916bc332e846ca90523"
         }
       ]
     }
