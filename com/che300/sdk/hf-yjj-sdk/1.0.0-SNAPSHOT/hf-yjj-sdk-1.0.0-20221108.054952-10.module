@@ -1,0 +1,396 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.che300.sdk",
+    "module": "hf-yjj-sdk",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "tiys5uizibd6jlllle73iekr2y"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "hf-yjj-sdk-1.0.0-SNAPSHOT.aar",
+          "url": "hf-yjj-sdk-1.0.0-20221108.054952-10.aar",
+          "size": 4593609,
+          "sha512": "b49452b9c57004b1ec3d6b8f4fd5f7bc535be1b56712693cfe279d65c2cc51e1cb4f683bac61605326c3c4277aa378c6a5c0631a4126f2d2b26e266ed7b5949e",
+          "sha256": "660183c04e5ddab9cf85a9d35caf1ff61e743ff06b0d96166edf826046702a85",
+          "sha1": "1f66924abb68b3d8ca4ad4834990be2afec6a70a",
+          "md5": "850b7f5e6f73c713d5f23c5d1973f144"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "com.contrarywind",
+          "module": "Android-PickerView",
+          "version": {
+            "requires": "4.1.6"
+          }
+        },
+        {
+          "group": "com.contrarywind",
+          "module": "wheelview",
+          "version": {
+            "requires": "4.1.0"
+          }
+        },
+        {
+          "group": "com.alibaba",
+          "module": "fastjson",
+          "version": {
+            "requires": "1.1.54.android"
+          }
+        },
+        {
+          "group": "com.github.CymChad",
+          "module": "BaseRecyclerViewAdapterHelper",
+          "version": {
+            "requires": "3.0.6"
+          }
+        },
+        {
+          "group": "com.github.MingYueChunQiu",
+          "module": "RecorderManager",
+          "version": {
+            "requires": "0.2.29"
+          }
+        },
+        {
+          "group": "com.github.PhilJay",
+          "module": "MPAndroidChart",
+          "version": {
+            "requires": "v3.1.0"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.github.mcxtzhang",
+          "module": "SwipeDelMenuLayout",
+          "version": {
+            "requires": "V1.3.0"
+          }
+        },
+        {
+          "group": "com.github.open-android",
+          "module": "Logger",
+          "version": {
+            "requires": "v1.0.0"
+          }
+        },
+        {
+          "group": "com.google.android",
+          "module": "flexbox",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.king.zxing",
+          "module": "zxing-lite",
+          "version": {
+            "requires": "1.1.2-androidx"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "com.github.chrisbanes",
+          "module": "PhotoView",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "com.qiniu",
+          "module": "qiniu-android-sdk",
+          "version": {
+            "requires": "8.4.2"
+          }
+        },
+        {
+          "group": "com.qcloud.cos",
+          "module": "cos-android",
+          "version": {
+            "requires": "5.9.0"
+          }
+        },
+        {
+          "group": "com.shuyu",
+          "module": "gsyVideoPlayer-java",
+          "version": {
+            "requires": "7.1.3"
+          }
+        },
+        {
+          "group": "com.shuyu",
+          "module": "GSYVideoPlayer-exo2",
+          "version": {
+            "requires": "7.1.3"
+          }
+        },
+        {
+          "group": "com.shuyu",
+          "module": "gsyVideoPlayer-ex_so",
+          "version": {
+            "requires": "7.1.3"
+          }
+        },
+        {
+          "group": "com.hyman",
+          "module": "flowlayout-lib",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "com.github.alidili",
+          "module": "FlowLayout",
+          "version": {
+            "requires": "v1.5"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.15"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "com.trello.rxlifecycle2",
+          "module": "rxlifecycle",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.trello.rxlifecycle2",
+          "module": "rxlifecycle-android",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.trello.rxlifecycle2",
+          "module": "rxlifecycle-components",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.trello.rxlifecycle2",
+          "module": "rxlifecycle-kotlin",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava2",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "com.youth.banner",
+          "module": "banner",
+          "version": {
+            "requires": "1.4.9"
+          }
+        },
+        {
+          "group": "org.greenrobot",
+          "module": "eventbus",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.anko",
+          "module": "anko",
+          "version": {
+            "requires": "0.10.8"
+          },
+          "excludes": [
+            {
+              "group": "com.google.android",
+              "module": "android"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.anko",
+          "module": "anko-commons",
+          "version": {
+            "requires": "0.10.8"
+          }
+        },
+        {
+          "group": "androidx.gridlayout",
+          "module": "gridlayout",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk16",
+          "version": {
+            "requires": "1.46"
+          }
+        },
+        {
+          "group": "io.fotoapparat",
+          "module": "fotoapparat",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "it.sephiroth.android.library.imagezoom",
+          "module": "library",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.tencent",
+          "module": "mmkv",
+          "version": {
+            "requires": "1.2.9"
+          }
+        },
+        {
+          "group": "net.zetetic",
+          "module": "android-database-sqlcipher",
+          "version": {
+            "requires": "4.5.2"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite-ktx",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hf-yjj-sdk-1.0.0-SNAPSHOT.aar",
+          "url": "hf-yjj-sdk-1.0.0-20221108.054952-10.aar",
+          "size": 4593609,
+          "sha512": "b49452b9c57004b1ec3d6b8f4fd5f7bc535be1b56712693cfe279d65c2cc51e1cb4f683bac61605326c3c4277aa378c6a5c0631a4126f2d2b26e266ed7b5949e",
+          "sha256": "660183c04e5ddab9cf85a9d35caf1ff61e743ff06b0d96166edf826046702a85",
+          "sha1": "1f66924abb68b3d8ca4ad4834990be2afec6a70a",
+          "md5": "850b7f5e6f73c713d5f23c5d1973f144"
+        }
+      ]
+    }
+  ]
+}
